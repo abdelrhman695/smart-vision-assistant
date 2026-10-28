@@ -1,0 +1,37 @@
+{
+  "camera": {
+    "index": 0,
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  },
+  "detection": {
+    "object_confidence": 0.5,
+    "face_confidence": 0.5,
+    "face_recognition_tolerance": 0.6,
+    "nms_threshold": 0.4
+  },
+  "paths": {
+    "known_faces": "known_faces",
+    "models": "models",
+    "logs": "logs",
+    "screenshots": "screenshots"
+  },
+  "display": {
+    "show_fps": true,
+    "show_confidence": true,
+    "font_scale": 0.6,
+    "box_thickness": 2
+  },
+  "voice": {
+    "enabled": true,
+    "language": "en-US",
+    "commands": {
+      "start detection": "start",
+      "stop detection": "stop",
+      "take photo": "photo",
+      "describe scene": "describe",
+      "quit": "quit"
+    }
+  }
+}
